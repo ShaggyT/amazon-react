@@ -8,7 +8,7 @@ function ProductIndexPage (props) {
         className="ProductIndexPage"
         style={{padding: '0  20px'}}
       >
-        <h2>Products</h2>
+        <h2 style={{paddingLeft: '5px'}}>Products</h2>
         <ul style={{paddingLeft: '10px'}}>
           {
             products.map(product => (

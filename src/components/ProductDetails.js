@@ -18,10 +18,10 @@ function ProductDetails (props = {}) {
           {/* <p><strong>Price:</strong> {props.price}</p> */}
           <Field name="Price" value={props.price} />
           {/* <p><strong>Sale Price:</strong> {props.sale_price}</p> */}
-          <Field name="Price" value={props.sale_price} />
+          <Field name="Sale Price" value={props.sale_price} />
           <Field name="Created At" value={props.created_date} />
           <Field name="Updated At" value={props.updated_date} />
-        </div> 
+        </div>
     </div>
   );
 }

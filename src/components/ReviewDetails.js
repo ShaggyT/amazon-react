@@ -1,5 +1,6 @@
 import React from 'react';
 import {Field} from './Field';
+import {StarRating} from './StarRating';
 
 function ReviewDetails (props = {}) {
   return (
@@ -12,6 +13,7 @@ function ReviewDetails (props = {}) {
       <Field name="Love Count" value={props.love_count} />
       <Field name="Created At" value={props.created_date} />
       <Field name="Updated At" value={props.updated_date} />
+      <StarRating max={5} rating={props.rating} />
     </div>
   );
 }
